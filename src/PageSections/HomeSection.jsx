@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import Home from "../components/Home";
-const HomePage = () => {
+const HomeSection = () => {
     return (
         <Fragment>
-            <Home />
-        </Fragment>
+        <Home />
+       </Fragment>
     )
 };
-export default HomePage;
+export default HomeSection;

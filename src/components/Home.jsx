@@ -4,7 +4,7 @@ import "./Home.css";
 import  Navbar  from './Navbar';
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Navbar />
       <div className="container">
         <div className="inner-text-left">

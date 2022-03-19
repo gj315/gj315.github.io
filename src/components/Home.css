@@ -5,20 +5,23 @@
     background-image:url("/src/assets/bg-image-28.jpeg");
     background-position: 50%;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+
+    /* I am fixed backgroubd attachment for Parallax Effect */
+
+    background-attachment: fixed; 
     background-size:cover;
-    z-index: 999;
+    z-index: 9;
 }
 .container{
     max-width: 1200px;
     margin:100px 0;
     margin-left: 50px;
     display: flex;
-    padding: 40px 0;
+    padding: 150px 0 0 0;
     
 }
 .inner-text-left .welcome{
-   color: #fff;
+    color: #fff;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -38,7 +41,7 @@
     font-weight:bold;
     margin-left: 18px;
     text-transform: none;
-    
+    z-index:2;
 }
 .typewriter h2{
     font-size: 55px;
