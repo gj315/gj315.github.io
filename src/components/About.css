@@ -3,6 +3,7 @@
     height: 100vh;
     padding: 100px 0 ;
     background-color:#0e1525;
+    box-sizing: border-box;
 }
 .about-container{
     display: flex;
@@ -18,6 +19,7 @@
     height: 556px;
     max-width: 100%;
     padding-left: 55px;
+    z-index: 1;
 }
 .about-info{
     max-width: 100%;
@@ -53,6 +55,162 @@
     -webkit-text-fill-color:transparent;
     display:inline-block;
 }
+
+/* about me dashborad css */
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tablist{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #2d3548;
+    border-radius: 95px;
+    color: #fff;
+    
+}
+.tabhead{
+   color: #fff;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   padding: 15px 25px;
+   
+}
+.active{
+    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    border-radius: 50px;
+    
+    
+}
+.tabcontentlist{
+    margin-top: 20px;
+}
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skill-container .heading{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom: 10px;
+}
+.skill-container .heading h2{
+    font-size: 16px;
+    color: #fff;
+}
+.skill-container .heading  .web{
+    color: yellow;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.progress-bar-container{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    background:#fff;
+    border-radius: 5px;
+    
+}
+.progress-bar-container .progress-bar-1{
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    animation:progress-animation-1 2s forwards;
+}
+/* animtion for progress bar */
+
+@keyframes progress-animation-1 {
+    0%{ width: 0%;}
+    100%{
+        width: 95%;
+    }
+
+    
+}
+
+/* css for second progress bar */
+
+.skill-container .heading  .mobile{
+   color:#1c99fe ;
+   font-size: 18px;
+   padding: 10px 0;
+}
+
+.progress-bar-container .progress-bar-2{
+   position: absolute;
+   height: 100%;
+   background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+   animation:progress-animation-2 3s forwards;
+}
+
+/* animtion for progress bar-2 */
+
+@keyframes progress-animation-2 {
+   0%{ width: 0%;}
+   100%{
+       width: 90%;
+   }
+
+
+};
+
+
+.skill-container .heading .game{
+   color:red;
+   font-size: 18px;
+   padding-top: 10px;
+}
+
+.progress-bar-container .progress-bar-3{
+   position: absolute;
+   height: 100%;
+   background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+   animation:progress-animation-3 4s forwards;
+}
+/* animtion for progress bar */
+
+@keyframes progress-animation-3 {
+   0%{ width: 0%;}
+   100%{
+       width: 85%;
+   }
+   
+
+}
+.skill-container .heading .blockchain{
+    color:green;
+    font-size: 18px;
+    padding-top: 10px;
+ }
+ .progress-bar-container .progress-bar-4{
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    animation: progress-animation-4 2.5s forwards;
+ }
+ /* animtion for progress bar */
+ 
+ @keyframes progress-animation-4 {
+    0%{ width: 0%;}
+    100%{
+        width: 93%;
+    }
+    
+ 
+ }
+
+
+
+
+
+
 
 
 
