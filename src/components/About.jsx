@@ -45,6 +45,12 @@ const About = () => {
                     className={`tabhead ${index === 3 ? "active" : "null"}`}
                     onClick={() => setIndex(3)}
                   >
+                    Experience
+                  </div>
+                  <div
+                    className={`tabhead ${index === 4 ? "active" : "null"}`}
+                    onClick={() => setIndex(4)}
+                  >
                     Education
                   </div>
                 </div>
@@ -88,15 +94,136 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="tabcontent" hidden={index !== 1}>
-                    this is second tab content
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="react">React</h2>
+                        <h2 className="value">98%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-5"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="angular">AngularJs</h2>
+                        <h2 className="value">90%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-6"></div>
+                      </div>
+                    </div>
+
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="vue">Vue</h2>
+                        <h2 className="value">93%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-7"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="next">NextJs</h2>
+                        <h2 className="value">92%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-8"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="gatsby">Gatsby</h2>
+                        <h2 className="value">90%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-9"></div>
+                      </div>
+                    </div>
                   </div>
                   <div className="tabcontent" hidden={index !== 2}>
-                    this is third tab content
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="node">NodeJs</h2>
+                        <h2 className="value">97%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-10"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="express">ExpressJs</h2>
+                        <h2 className="value">94%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-11"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="mongo">MongoDb</h2>
+                        <h2 className="value">95%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-12"></div>
+                      </div>
+                    </div>
+                    <div className="skill-container">
+                      <div className="heading">
+                        <h2 className="postgress">PostgreSql</h2>
+                        <h2 className="value">90%</h2>
+                      </div>
+                      <div className="progress-bar-container">
+                        <div className="progress-bar-13"></div>
+                      </div>
+                    </div>
                   </div>
                   <div className="tabcontent" hidden={index !== 3}>
-                    this is fourth tab content
+                    <div className="experience">
+                      <div className="a">
+                        <h3>Freelance NodeJs Developer - Upwork</h3>
+                        <h4>2019- Current</h4>
+                      </div>
+                      <div className="a">
+                        <h3>
+                          Freelance ReactNative Mobile App Developer - upwork
+                        </h3>
+                        <h4>2019 - Current</h4>
+                      </div>
+                      <div className="a">
+                        <h3>Freelance MERN stack Developer - Upwork</h3>
+                        <h4>2019 - Current</h4>
+                      </div>
+                      <div className="a">
+                        <h3> Freelance BlockChain Developer - upwork</h3>
+                        <h4>2019 - Current</h4>
+                      </div>
+                      <div className="a">
+                        <h3> Sr. NodeJs Developer - Aloha Pvt.limited</h3>
+                        <h4>2018-2019</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="tabcontent" hidden={index !== 4}>
+                    <div className="edu-info">
+                  <div className="b">
+                    <h3>
+                     <span className="cse">BTech in CSE</span> - Lovely professional University, Punjab ,India
+                    </h3>
+                    <h4>Aprail 2017</h4>
+                  </div>
+                  <div className="b">
+                    <h3>Complete Node.js Developer Course By Andrew Mead - Udemy</h3>
+                    <h4>September 2017</h4>
+                  </div>
+                  <div className="b">
+                    <h3>Modern React with Redux - Udemy</h3>
+                    <h4>2018</h4>
+                  </div>
+                  
+                    </div>
                   </div>
                 </div>
               </div>

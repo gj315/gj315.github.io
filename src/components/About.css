@@ -1,7 +1,7 @@
 .About{
     width: 100%;
-    height: 100vh;
-    padding: 100px 0 ;
+    height: 100%;
+    padding: 100px 0 0 0 ;
     background-color:#0e1525;
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     /* flex-wrap: wrap; */
 }
@@ -69,6 +69,7 @@
     border: 1px solid #2d3548;
     border-radius: 95px;
     color: #fff;
+   
     
 }
 .tabhead{
@@ -77,7 +78,7 @@
    font-family: 'Poppins', sans-serif;
    font-weight: 600;
    font-size: 18px;
-   padding: 15px 25px;
+   padding: 15px 10px;
    
 }
 .active{
@@ -87,7 +88,7 @@
     
 }
 .tabcontentlist{
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .skill-container{
@@ -104,11 +105,13 @@
 .skill-container .heading h2{
     font-size: 16px;
     color: #fff;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .skill-container .heading  .web{
     color: yellow;
     font-size: 18px;
-    padding: 10px 0;
+    padding-top: 10px ;
 }
 .progress-bar-container{
     width: 100%;
@@ -121,15 +124,17 @@
 .progress-bar-container .progress-bar-1{
     position: absolute;
     height: 100%;
-    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    animation:progress-animation-1 2s forwards;
+    background: yellow;
+    animation:progress-animation-1 5s forwards;
+    
 }
-/* animtion for progress bar */
+/* animtion for progress bar-1 */
 
 @keyframes progress-animation-1 {
     0%{ width: 0%;}
     100%{
         width: 95%;
+        box-shadow: 0 0 40px yellow;
     }
 
     
@@ -140,14 +145,15 @@
 .skill-container .heading  .mobile{
    color:#1c99fe ;
    font-size: 18px;
-   padding: 10px 0;
+   
 }
 
 .progress-bar-container .progress-bar-2{
    position: absolute;
    height: 100%;
-   background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+   background: red;
    animation:progress-animation-2 3s forwards;
+   
 }
 
 /* animtion for progress bar-2 */
@@ -156,17 +162,17 @@
    0%{ width: 0%;}
    100%{
        width: 90%;
+       box-shadow: 0 0 40px red ;
    }
 
 
 };
 
-
 .skill-container .heading .game{
-   color:red;
-   font-size: 18px;
-   padding-top: 10px;
-}
+    color:purple;
+    font-size: 18px;
+ }
+
 
 .progress-bar-container .progress-bar-3{
    position: absolute;
@@ -174,7 +180,7 @@
    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
    animation:progress-animation-3 4s forwards;
 }
-/* animtion for progress bar */
+/* animtion for progress bar-3 */
 
 @keyframes progress-animation-3 {
    0%{ width: 0%;}
@@ -187,7 +193,6 @@
 .skill-container .heading .blockchain{
     color:green;
     font-size: 18px;
-    padding-top: 10px;
  }
  .progress-bar-container .progress-bar-4{
     position: absolute;
@@ -195,7 +200,7 @@
     background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
     animation: progress-animation-4 2.5s forwards;
  }
- /* animtion for progress bar */
+ /* animtion for progress bar-4 */
  
  @keyframes progress-animation-4 {
     0%{ width: 0%;}
@@ -205,6 +210,242 @@
     
  
  }
+
+ .skill-container .heading .react{
+     color: lightskyblue;
+ }
+ .progress-bar-container .progress-bar-5{
+    position: absolute;
+    height: 100%;
+    background: lightskyblue;
+    animation: progress-animation-5 1s forwards;
+ }
+ /* animtion for progress bar-5 */
+ 
+ @keyframes progress-animation-5 {
+    0%{ width: 0%;}
+    100%{
+        width: 98%;
+        box-shadow:30px 0 40px lightskyblue ;
+    }
+    
+ 
+ }
+ .skill-container .heading .angular{
+    color: red;
+}
+.progress-bar-container .progress-bar-6{
+   position: absolute;
+   height: 100%;
+   background: rgb(238, 6, 6);
+   animation: progress-animation-6 5s forwards;
+}
+/* animtion for progress bar-6 */
+
+@keyframes progress-animation-6 {
+   0%{ width: 0%;}
+   100%{
+       width: 90%;
+       box-shadow:30px 0 40px rgb(248, 13, 189) ;
+   }
+   
+
+}
+.skill-container .heading .vue{
+    color: rgb(16, 243, 35);
+}
+.progress-bar-container .progress-bar-7{
+   position: absolute;
+   height: 100%;
+   background:rgb(16, 243, 35) ;
+   animation: progress-animation-7 3s forwards;
+}
+/* animtion for progress bar-7 */
+
+@keyframes progress-animation-7 {
+   0%{ width: 0%;}
+   100%{
+       width: 93%;
+       box-shadow:0 0 40px rgb(16, 243, 35) ;
+   }
+   
+
+}
+.skill-container .heading .next{
+    color: rgb(6, 7, 7);
+    font-size: 25px;
+}
+.progress-bar-container .progress-bar-8{
+   position: absolute;
+   height: 100%;
+   background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+   animation: progress-animation-8 3s forwards;
+}
+/* animtion for progress bar-8 */
+
+@keyframes progress-animation-8 {
+   0%{ width: 0%;}
+   100%{
+       width: 92%;
+       box-shadow:0 0 40px rgb(0, 3, 3) ;
+   }
+
+}
+
+.skill-container .heading .gatsby{
+    color: rgb(248, 15, 209);
+}
+.progress-bar-container .progress-bar-9{
+   position: absolute;
+   height: 100%;
+   background:rgb(224, 15, 207) ;
+   animation: progress-animation-9 1s forwards;
+}
+/* animtion for progress bar-9 */
+
+@keyframes progress-animation-9 {
+   0%{ width: 0%;}
+   100%{
+       width: 92%;
+       box-shadow:0 0 40px rgb(243, 5, 184) ;
+   }
+
+}
+.skill-container .heading .node{
+    color: rgb(30, 114, 4);
+}
+.progress-bar-container .progress-bar-10{
+   position: absolute;
+   height: 100%;
+   background:rgb(30, 114, 4);
+   animation: progress-animation-10 1.5s forwards;
+}
+/* animtion for progress bar-10 */
+
+@keyframes progress-animation-10 {
+   0%{ width: 0%;}
+   100%{
+       width: 97%;
+       box-shadow:0 0 40px rgb(5, 248, 38) ;
+   }
+
+}
+.skill-container .heading .express{
+    color: rgb(229, 240, 83);
+}
+.progress-bar-container .progress-bar-11{
+   position: absolute;
+   height: 100%;
+   background:rgb(235, 247, 75);
+   animation: progress-animation-11 3.8s forwards;
+}
+/* animtion for progress bar-11 */
+
+@keyframes progress-animation-11 {
+   0%{ width: 0%;}
+   100%{
+       width: 94%;
+       box-shadow:0 0 40px rgb(229, 240, 83) ;
+   }
+
+}
+.skill-container .heading .mongo{
+    color: rgb(22, 194, 31);
+}
+.progress-bar-container .progress-bar-12{
+   position: absolute;
+   height: 100%;
+   background:rgb(22, 194, 31);
+   animation: progress-animation-12 2.5s forwards;
+}
+/* animtion for progress bar-12 */
+
+@keyframes progress-animation-12 {
+   0%{ width: 0%;}
+   100%{
+       width: 95%;
+       box-shadow:0 0 40px rgb(229, 240, 83) ;
+   }
+
+}
+
+.skill-container .heading .postgress{
+    color: rgb(15, 220, 247);
+}
+.progress-bar-container .progress-bar-13{
+   position: absolute;
+   height: 100%;
+   background:rgb(15, 220, 247);
+   animation: progress-animation-13 4s forwards;
+}
+/* animtion for progress bar-13 */
+
+@keyframes progress-animation-13 {
+   0%{ width: 0%;}
+   100%{
+       width: 90%;
+       box-shadow:0 0 40px rgb(12, 250, 230) ;
+   }
+
+}
+.tabcontent .experience{
+ display: flex;
+ flex-direction: column;
+ margin-top: 5px;
+ justify-content: space-between;
+ margin-bottom: 15px;
+
+}
+.tabcontent .experience .a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Poppins', sans-serif;
+}
+
+.tabcontent .experience h3{
+    color: rgb(198 201 216 / 75%);
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.tabcontent .experience h4{
+    color:rgb(198 201 216 / 75%);
+    font-size: 16px;
+    padding-top: 8px;
+}
+.tabcontent .edu-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Poppins', sans-serif;
+    padding: 10px 0 0 0;
+}
+.tabcontent .edu-info .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Poppins', sans-serif;
+}
+
+.tabcontent .edu-info h3{
+    color: rgb(198 201 216 / 75%);
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.tabcontent .edu-info h4{
+    color:rgb(198 201 216 / 75%);
+    font-size: 16px;
+    padding-top: 8px;
+}
+.tabcontent .edu-info .b .cse{
+    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    background-clip: text;
+    font-size: 18px;
+}
+
+
 
 
 
