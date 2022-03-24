@@ -13,7 +13,7 @@ const Services = () => {
         <div className="section-title">My Fantastic Service</div>
         <p>
           Below I mention all my fantastic software services which I can provide
-          you.
+          you
         </p>
       </div>
       <div className="services-blocks">
@@ -58,6 +58,7 @@ const Services = () => {
               I develope fantastic Desktop Application for my client with the use of new web
               tech framwork ElectronJs.
             </p>
+            
           </div>
         </div>
         <div className="block">

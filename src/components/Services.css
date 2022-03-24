@@ -54,12 +54,16 @@
     padding: 10px 0;
     align-items: center;
 }
+
 .services-blocks .block:hover{
       background:linear-gradient( #1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-      border: 1px solid linear-gradient(to right, #1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+      border: 3px solid pink;
       box-shadow: 0 0 10px rgb(238, 247, 116);
-      
+      transform: scale(1.1);
+
     }
+
+   
 
 .services-blocks .block .content{
     margin: 16px;
@@ -74,7 +78,7 @@
     font-weight:bold;
 }
 .services-blocks .block .content p{
-color:rgba(198,201,216,.75);
+   color:rgba(198,201,216,.75);
    word-wrap: break-word;
    line-height: 40px;
    font-size: 18px;
