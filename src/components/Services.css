@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 100px 0 ;
+    overflow-x: hidden;
 }
 
 
@@ -84,6 +84,84 @@
    font-size: 18px;
    font-weight: 600;
    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .service-section-header  p{
+        font-size: 30px;
+        color: rgba(198,201,216,.75);
+        font-family: inherit;
+        font-weight: 200;
+        font-style: italic;
+        display: block;
+        text-align: center;
+        padding: 0 8px;
+       
+    }
+
+    .service-section-header .section-title{
+        font-size: 55px;
+        background:linear-gradient(45deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+        background-clip:text;
+        padding-bottom:10px;
+        font-weight: bold;
+        -webkit-text-fill-color:transparent;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    
+    .services-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .services-blocks .block{
+        display: flex;
+        flex-direction: column;
+        background:#091020;
+        border-radius: 10px;
+        padding: 10px 0;
+        align-items: center;
+    }
+    
+    .services-blocks .block:hover{
+          background:linear-gradient( #1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+          border: 3px solid pink;
+          box-shadow: 0 0 10px rgb(238, 247, 116);
+          transform: none;
+        }
+    
+       
+    
+    .services-blocks .block .content{
+        margin: 16px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #fff; 
+    }
+    .services-blocks .block .content h2{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-weight:bold;
+    }
+    .services-blocks .block .content p{
+       color:rgba(198,201,216,.75);
+       word-wrap: break-word;
+       line-height: 40px;
+       font-size: 18px;
+       font-weight: 600;
+       text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+       
 }
 
 

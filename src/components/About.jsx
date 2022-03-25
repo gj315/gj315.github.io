@@ -13,10 +13,10 @@ const About = () => {
           <div className="about-inner">
             <div className="section-title">
               <span>Details </span>
-              <h2>About Me</h2>
+              <h2> About Me</h2>
             </div>
             <p>
-              Hi I know you come here for that guy who are expert in{" "}
+              Hi I know you come here for that guy who are expert in
               <span>new web technologies</span> then congras! you come on right
               place.
             </p>
@@ -27,7 +27,7 @@ const About = () => {
                     className={`tabhead ${index === 0 ? "active" : "null"}`}
                     onClick={() => setIndex(0)}
                   >
-                    Main skills
+                    Skills
                   </div>
                   <div
                     className={`tabhead ${index === 1 ? "active" : "null"}`}
