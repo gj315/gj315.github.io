@@ -1,750 +1,813 @@
-.About{
-    width: 100%;
-    height: 100%;
-    padding: 100px 0 0 0 ;
-    background-color:#0e1525;
-    box-sizing: border-box;
-    overflow: hidden;
+.About {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0 0 0;
+  background-color: #0e1525;
+  box-sizing: border-box;
 }
 
-.about-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
-
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
 }
 
-.about-image img{
-    position: relative;
-    border-radius: 8px;
-    height: 556px;
-    max-width: 100%;
-    padding-left: 55px;
-    z-index: 1;
+.about-image img {
+  position: relative;
+  border-radius: 8px;
+  height: 556px;
+  max-width: 100%;
+  padding-left: 55px;
+  z-index: 1;
 }
 
-.about-info{
-    max-width: 100%;
-    width: 40%;
-    margin-top:10px;
-    margin-right: 10px;
+.about-info {
+  max-width: 100%;
+  width: 40%;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .about-info .section-title span {
-       font-size: 28px;
-       background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-       background-clip:text;
-       -webkit-text-fill-color: transparent;
-        display:inline-block;
-    }
+  font-size: 28px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
 .about-info .section-title h2 {
-       color: #fff;
-       font-size: 50px;
-       padding-top: 10px;
+  color: #fff;
+  font-size: 50px;
+  padding-top: 10px;
 }
 
-.about-inner p{
-    color: #fff;
-   margin-top: 30px;
-   font-weight: 300;
-   font-size: 20px;
-   letter-spacing: 3px;
-   font-family: "Poppins",sans-serif;
+.about-inner p {
+  color: #fff;
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
 }
 
-.about-info  p span{
-    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    background-clip:text;
-    text-transform: capitalize;
-    -webkit-text-fill-color:transparent;
-    display:inline-block;
+.about-info p span {
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  background-clip: text;
+  text-transform: capitalize;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 /* about me dashborad css */
-.tabs{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.tablist{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid #2d3548;
-    border-radius: 95px;
-    color: #fff;
-   
-    
+.tablist {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #2d3548;
+  border-radius: 95px;
+  color: #fff;
 }
-.tabhead{
-   color: #fff;
-   cursor: pointer;
-   font-family: 'Poppins', sans-serif;
-   font-weight: 600;
-   font-size: 18px;
-   padding: 15px 10px;
-   
+.tabhead {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 10px;
 }
-.active{
-    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    border-radius: 50px;
-    
-    
+.active {
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  border-radius: 50px;
 }
-.tabcontentlist{
-    margin-top: 0px;
+.tabcontentlist {
+  margin-top: 0px;
 }
 
-.skill-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.skill-container .heading{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding-bottom: 10px;
+.skill-container .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
 }
-.skill-container .heading h2{
-    font-size: 16px;
-    color: #fff;
-    margin-top: 10px;
-    padding-top: 10px;
+.skill-container .heading h2 {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
 }
-.skill-container .heading  .web{
-    color: yellow;
-    font-size: 18px;
-    padding-top: 10px ;
+.skill-container .heading .web {
+  color: yellow;
+  font-size: 18px;
+  padding-top: 10px;
 }
-.progress-bar-container{
-    width: 100%;
-    height: 5px;
-    position: relative;
-    background:#fff;
-    border-radius: 5px;
-    
+.progress-bar-container {
+  width: 100%;
+  height: 5px;
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
 }
-.progress-bar-container .progress-bar-1{
-    position: absolute;
-    height: 100%;
-    background: yellow;
-    animation:progress-animation-1 5s forwards;
-    
+.progress-bar-container .progress-bar-1 {
+  position: absolute;
+  height: 100%;
+  background: yellow;
+  animation: progress-animation-1 5s forwards;
 }
 /* animtion for progress bar-1 */
 
 @keyframes progress-animation-1 {
-    0%{ width: 0%;}
-    100%{
-        width: 95%;
-        box-shadow: 0 0 40px yellow;
-    }
-
-    
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+    box-shadow: 0 0 40px yellow;
+  }
 }
 
 /* css for second progress bar */
 
-.skill-container .heading  .mobile{
-   color:#1c99fe ;
-   font-size: 18px;
-   
+.skill-container .heading .mobile {
+  color: #1c99fe;
+  font-size: 18px;
 }
 
-.progress-bar-container .progress-bar-2{
-   position: absolute;
-   height: 100%;
-   background: red;
-   animation:progress-animation-2 3s forwards;
-   
+.progress-bar-container .progress-bar-2 {
+  position: absolute;
+  height: 100%;
+  background: red;
+  animation: progress-animation-2 3s forwards;
 }
 
 /* animtion for progress bar-2 */
 
 @keyframes progress-animation-2 {
-   0%{ width: 0%;}
-   100%{
-       width: 90%;
-       box-shadow: 0 0 40px red ;
-   }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+    box-shadow: 0 0 40px red;
+  }
+}
 
+.skill-container .heading .game {
+  color: purple;
+  font-size: 18px;
+}
 
-};
-
-.skill-container .heading .game{
-    color:purple;
-    font-size: 18px;
- }
-
-
-.progress-bar-container .progress-bar-3{
-   position: absolute;
-   height: 100%;
-   background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-   animation:progress-animation-3 4s forwards;
+.progress-bar-container .progress-bar-3 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  animation: progress-animation-3 4s forwards;
 }
 /* animtion for progress bar-3 */
 
 @keyframes progress-animation-3 {
-   0%{ width: 0%;}
-   100%{
-       width: 85%;
-   }
-   
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
-.skill-container .heading .blockchain{
-    color:green;
-    font-size: 18px;
- }
- .progress-bar-container .progress-bar-4{
-    position: absolute;
-    height: 100%;
-    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    animation: progress-animation-4 2.5s forwards;
- }
- /* animtion for progress bar-4 */
- 
- @keyframes progress-animation-4 {
-    0%{ width: 0%;}
-    100%{
-        width: 93%;
-    }
-    
- 
- }
-
- .skill-container .heading .react{
-     color: lightskyblue;
- }
- .progress-bar-container .progress-bar-5{
-    position: absolute;
-    height: 100%;
-    background: lightskyblue;
-    animation: progress-animation-5 1s forwards;
- }
- /* animtion for progress bar-5 */
- 
- @keyframes progress-animation-5 {
-    0%{ width: 0%;}
-    100%{
-        width: 98%;
-        box-shadow:30px 0 40px lightskyblue ;
-    }
-    
- 
- }
- .skill-container .heading .angular{
-    color: red;
+.skill-container .heading .blockchain {
+  color: green;
+  font-size: 18px;
 }
-.progress-bar-container .progress-bar-6{
-   position: absolute;
-   height: 100%;
-   background: rgb(238, 6, 6);
-   animation: progress-animation-6 5s forwards;
+.progress-bar-container .progress-bar-4 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  animation: progress-animation-4 2.5s forwards;
+}
+/* animtion for progress bar-4 */
+
+@keyframes progress-animation-4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 93%;
+  }
+}
+
+.skill-container .heading .react {
+  color: lightskyblue;
+}
+.progress-bar-container .progress-bar-5 {
+  position: absolute;
+  height: 100%;
+  background: lightskyblue;
+  animation: progress-animation-5 1s forwards;
+}
+/* animtion for progress bar-5 */
+
+@keyframes progress-animation-5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
+    box-shadow: 30px 0 40px lightskyblue;
+  }
+}
+.skill-container .heading .angular {
+  color: red;
+}
+.progress-bar-container .progress-bar-6 {
+  position: absolute;
+  height: 100%;
+  background: rgb(238, 6, 6);
+  animation: progress-animation-6 5s forwards;
 }
 /* animtion for progress bar-6 */
 
 @keyframes progress-animation-6 {
-   0%{ width: 0%;}
-   100%{
-       width: 90%;
-       box-shadow:30px 0 40px rgb(248, 13, 189) ;
-   }
-   
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+    box-shadow: 30px 0 40px rgb(248, 13, 189);
+  }
 }
-.skill-container .heading .vue{
-    color: rgb(16, 243, 35);
+.skill-container .heading .vue {
+  color: rgb(16, 243, 35);
 }
-.progress-bar-container .progress-bar-7{
-   position: absolute;
-   height: 100%;
-   background:rgb(16, 243, 35) ;
-   animation: progress-animation-7 3s forwards;
+.progress-bar-container .progress-bar-7 {
+  position: absolute;
+  height: 100%;
+  background: rgb(16, 243, 35);
+  animation: progress-animation-7 3s forwards;
 }
 /* animtion for progress bar-7 */
 
 @keyframes progress-animation-7 {
-   0%{ width: 0%;}
-   100%{
-       width: 93%;
-       box-shadow:0 0 40px rgb(16, 243, 35) ;
-   }
-   
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 93%;
+    box-shadow: 0 0 40px rgb(16, 243, 35);
+  }
 }
-.skill-container .heading .next{
-    color: rgb(6, 7, 7);
-    font-size: 25px;
+.skill-container .heading .next {
+  color: rgb(6, 7, 7);
+  font-size: 25px;
 }
-.progress-bar-container .progress-bar-8{
-   position: absolute;
-   height: 100%;
-   background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-   animation: progress-animation-8 3s forwards;
+.progress-bar-container .progress-bar-8 {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  animation: progress-animation-8 3s forwards;
 }
 /* animtion for progress bar-8 */
 
 @keyframes progress-animation-8 {
-   0%{ width: 0%;}
-   100%{
-       width: 92%;
-       box-shadow:0 0 40px rgb(0, 3, 3) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+    box-shadow: 0 0 40px rgb(0, 3, 3);
+  }
 }
 
-.skill-container .heading .gatsby{
-    color: rgb(248, 15, 209);
+.skill-container .heading .gatsby {
+  color: rgb(248, 15, 209);
 }
-.progress-bar-container .progress-bar-9{
-   position: absolute;
-   height: 100%;
-   background:rgb(224, 15, 207) ;
-   animation: progress-animation-9 1s forwards;
+.progress-bar-container .progress-bar-9 {
+  position: absolute;
+  height: 100%;
+  background: rgb(224, 15, 207);
+  animation: progress-animation-9 1s forwards;
 }
 /* animtion for progress bar-9 */
 
 @keyframes progress-animation-9 {
-   0%{ width: 0%;}
-   100%{
-       width: 92%;
-       box-shadow:0 0 40px rgb(243, 5, 184) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+    box-shadow: 0 0 40px rgb(243, 5, 184);
+  }
 }
-.skill-container .heading .node{
-    color: rgb(30, 114, 4);
+.skill-container .heading .node {
+  color: rgb(30, 114, 4);
 }
-.progress-bar-container .progress-bar-10{
-   position: absolute;
-   height: 100%;
-   background:rgb(30, 114, 4);
-   animation: progress-animation-10 1.5s forwards;
+.progress-bar-container .progress-bar-10 {
+  position: absolute;
+  height: 100%;
+  background: rgb(30, 114, 4);
+  animation: progress-animation-10 1.5s forwards;
 }
 /* animtion for progress bar-10 */
 
 @keyframes progress-animation-10 {
-   0%{ width: 0%;}
-   100%{
-       width: 97%;
-       box-shadow:0 0 40px rgb(5, 248, 38) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+    box-shadow: 0 0 40px rgb(5, 248, 38);
+  }
 }
-.skill-container .heading .express{
-    color: rgb(229, 240, 83);
+.skill-container .heading .express {
+  color: rgb(229, 240, 83);
 }
-.progress-bar-container .progress-bar-11{
-   position: absolute;
-   height: 100%;
-   background:rgb(235, 247, 75);
-   animation: progress-animation-11 3.8s forwards;
+.progress-bar-container .progress-bar-11 {
+  position: absolute;
+  height: 100%;
+  background: rgb(235, 247, 75);
+  animation: progress-animation-11 3.8s forwards;
 }
 /* animtion for progress bar-11 */
 
 @keyframes progress-animation-11 {
-   0%{ width: 0%;}
-   100%{
-       width: 94%;
-       box-shadow:0 0 40px rgb(229, 240, 83) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 94%;
+    box-shadow: 0 0 40px rgb(229, 240, 83);
+  }
 }
-.skill-container .heading .mongo{
-    color: rgb(22, 194, 31);
+.skill-container .heading .mongo {
+  color: rgb(22, 194, 31);
 }
-.progress-bar-container .progress-bar-12{
-   position: absolute;
-   height: 100%;
-   background:rgb(22, 194, 31);
-   animation: progress-animation-12 2.5s forwards;
+.progress-bar-container .progress-bar-12 {
+  position: absolute;
+  height: 100%;
+  background: rgb(22, 194, 31);
+  animation: progress-animation-12 2.5s forwards;
 }
 /* animtion for progress bar-12 */
 
 @keyframes progress-animation-12 {
-   0%{ width: 0%;}
-   100%{
-       width: 95%;
-       box-shadow:0 0 40px rgb(229, 240, 83) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+    box-shadow: 0 0 40px rgb(229, 240, 83);
+  }
 }
 
-.skill-container .heading .postgress{
-    color: rgb(15, 220, 247);
+.skill-container .heading .postgress {
+  color: rgb(15, 220, 247);
 }
-.progress-bar-container .progress-bar-13{
-   position: absolute;
-   height: 100%;
-   background:rgb(15, 220, 247);
-   animation: progress-animation-13 4s forwards;
+.progress-bar-container .progress-bar-13 {
+  position: absolute;
+  height: 100%;
+  background: rgb(15, 220, 247);
+  animation: progress-animation-13 4s forwards;
 }
 /* animtion for progress bar-13 */
 
 @keyframes progress-animation-13 {
-   0%{ width: 0%;}
-   100%{
-       width: 90%;
-       box-shadow:0 0 40px rgb(12, 250, 230) ;
-   }
-
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+    box-shadow: 0 0 40px rgb(12, 250, 230);
+  }
 }
-.tabcontent .experience{
- display: flex;
- flex-direction: column;
- margin-top: 5px;
- justify-content: space-between;
- margin-bottom: 15px;
-
+.tabcontent .experience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
-.tabcontent .experience .a{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family:'Poppins', sans-serif;
-}
-
-.tabcontent .experience h3{
-    color: rgb(198 201 216 / 75%);
-    padding: 10px 0 0 0;
-    font-size: 16px;
-    font-weight: 300;
-}
-.tabcontent .experience h4{
-    color:rgb(198 201 216 / 75%);
-    font-size: 16px;
-    padding-top: 8px;
-}
-.tabcontent .edu-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family:'Poppins', sans-serif;
-    padding: 10px 0 0 0;
-}
-.tabcontent .edu-info .b{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family:'Poppins', sans-serif;
+.tabcontent .experience .a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
 }
 
-.tabcontent .edu-info h3{
-    color: rgb(198 201 216 / 75%);
-    padding: 10px 0 0 0;
-    font-size: 16px;
-    font-weight: 300;
+.tabcontent .experience h3 {
+  color: rgb(198 201 216 / 75%);
+  padding: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 300;
 }
-.tabcontent .edu-info h4{
-    color:rgb(198 201 216 / 75%);
-    font-size: 16px;
-    padding-top: 8px;
+.tabcontent .experience h4 {
+  color: rgb(198 201 216 / 75%);
+  font-size: 16px;
+  padding-top: 8px;
 }
-.tabcontent .edu-info .b .cse{
-    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    background-clip: text;
-    font-size: 18px;
+.tabcontent .edu-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 0 0 0;
+}
+.tabcontent .edu-info .b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.tabcontent .edu-info h3 {
+  color: rgb(198 201 216 / 75%);
+  padding: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+.tabcontent .edu-info h4 {
+  color: rgb(198 201 216 / 75%);
+  font-size: 16px;
+  padding-top: 8px;
+}
+.tabcontent .edu-info .b .cse {
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  background-clip: text;
+  font-size: 18px;
 }
 
 /* Media Quries for responsiveness */
-/* media Quries for mobile devices */
+/* Media Quries for mobile devices */
 
-@media screen and (max-width:480px) {
-    .About{
-        width: 100%;
-        height: 100%;
-        padding: 40px 0 0 0 ;
-        background-color:#0e1525;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-    
-    .about-container{
-        overflow-x: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    
-    } 
-    .about-container .about-image img{
-          padding: 0px 10px;
-          border-radius: 10px;
-    }
-    
-    .about-inner .section-title{
-        text-align: center;
-    }
-    .about-inner .section-title h2{
-        display: inline-block;
-        color: #fff;
-        font-size: 40px;
-        padding-top: 10px;
-        text-align: center;
-    } 
-    .about-inner .section-title  span{
-        font-size: 40px;
-       background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-       background-clip:text;
-       -webkit-text-fill-color: transparent;
-        display:inline-block;
-        padding-right: 5px;
-        
-    }
-    .about-info{
-        max-width: 100%;
-        width: 100%;
-        margin-top:10px;
-    }
-    
-    .about-inner p{
-       color: #fff;
-       margin-top: 30px;
-       font-weight: 300;
-       font-size: 20px;
-       letter-spacing: 2px;
-       padding: 0 10px;
-       font-family: "Poppins",sans-serif;
-       text-align: center; 
-   } 
-   .about-info  p span{
-    background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-    background-clip:text;
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .About {
+    width: 100%;
+    height: 100%;
+    padding: 40px 0 0 0;
+    background-color: #0e1525;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about-container .about-image img {
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+
+  .about-inner .section-title {
+    text-align: center;
+  }
+  .about-inner .section-title h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .about-inner .section-title span {
+    font-size: 40px;
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .about-info {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .about-inner p {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  .about-info p span {
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
     text-transform: capitalize;
-    -webkit-text-fill-color:transparent;
-    display:inline-block;
-}
-   .tablist{
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  .tablist {
     display: flex;
     justify-content: space-between;
     border: 1px solid #2d3548;
     border-radius: 50px;
     color: #fff;
     margin: 30px 10px 0 10px;
-    
-}
-.tabhead{
+  }
+  .tabhead {
     color: #fff;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 12px;
     padding: 10px 10px;
-}
-.skill-container{
+  }
+  .skill-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 10px 0 15px;
-}
-.tabcontent .experience{
+  }
+  .tabcontent .experience {
     padding-left: 15px;
-}
-.tabcontent .edu-info{
+  }
+  .tabcontent .edu-info {
     padding-left: 15px;
+  }
 }
-    
-};
 
 /* media Quries for tablets devices */
 
-@media screen and (min-width:480px)  and (max-width:768px){
-    .About{
-        width: 100%;
-        height: 100%;
-        padding: 40px 0 0 0 ;
-        background-color:#0e1525;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-    
-    .about-container{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        overflow-x: hidden;
-    
-    } 
-    .about-container .about-image img{
-          padding: 0px 10px;
-          border-radius: 10px;
-    }
-    
-    .about-inner .section-title{
-        text-align: center;
-    }
-    .about-inner .section-title h2{
-        display: inline-block;
-        color: #fff;
-        font-size: 40px;
-        padding-top: 10px;
-        text-align: center;
-    } 
-    .about-inner .section-title span{
-        font-size: 40px;
-       background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-       background-clip:text;
-       -webkit-text-fill-color: transparent;
-        display:inline-block;
-        padding-right: 5px;
-    }
-    .about-info{
-        max-width: 100%;
-        width: 100%;
-        margin-top:10px;
-    }
-    
-    .about-inner p{
-       color: #fff;
-       margin-top: 30px;
-       font-weight: 300;
-       font-size: 20px;
-       letter-spacing: 2px;
-       padding: 0 10px;
-       font-family: "Poppins",sans-serif;
-       text-align: center; 
-   } 
-   .tablist{
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .About {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0 0 0;
+    background-color: #0e1525;
+    box-sizing: border-box;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about-container .about-image img {
+    position: relative;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+  }
+
+  .about-inner .section-title {
+    text-align: center;
+  }
+  .about-inner .section-title h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .about-inner .section-title span {
+    font-size: 40px;
+    background: linear-gradient(
+      90deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .about-info {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .about-inner p {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .about-info p span {
+    background: linear-gradient(
+      90deg,
+      #2071b3 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .tablist {
     display: flex;
     justify-content: space-between;
     border: 1px solid #2d3548;
-    border-radius: 50px;
+    border-radius: 10%;
     color: #fff;
-    margin: 30px 10px 0 10px;
-    
-}
-.tabhead{
+    margin: 30px 20px 0 20px;
+  }
+  .tabhead {
     color: #fff;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 10px;
-}
-.skill-container{
+  }
+
+  .skill-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 10px 0 15px;
-}
-.tabcontent .experience{
-    padding-left: 15px;
-}
-.tabcontent .edu-info{
-    padding-left: 15px;
-}
-    
-    
-};
+    padding: 0 15px 0 15px;
+  }
 
-@media screen  and (min-width:768px) and (max-width:1200px) {
-    .About{
-        width: 100%;
-        height: 100%;
-        padding: 40px 0 0 0 ;
-        /* background-color:#0e1525; */
-        background-color: #1c99fe;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-    
-    .about-container{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items:center;
-    
-    } 
-    .about-container .about-image img{
-          padding: 0px 10px;
-          border-radius: 10px;
-    }
-    
-    .about-inner .section-title{
-        text-align: center;
-    }
-    .about-inner .section-title h2{
-        display: inline-block;
-        color: #fff;
-        font-size: 40px;
-        padding-top: 10px;
-        text-align: center;
-    } 
-    .about-inner .section-title span{
-        font-size: 40px;
-       background:linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
-       background-clip:text;
-       -webkit-text-fill-color: transparent;
-        display:inline-block;
-        padding-right: 5px;
-    }
-    .about-info{
-        max-width: 100%;
-        width: 100%;
-        margin-top:10px;
-    }
-    
-    .about-inner p{
-       color: #fff;
-       margin-top: 30px;
-       font-weight: 300;
-       font-size: 20px;
-       letter-spacing: 2px;
-       padding: 0 10px;
-       font-family: "Poppins",sans-serif;
-       text-align: center; 
-   } 
-   .tablist{
+  .tabcontent .experience {
+    padding-left: 15px;
+  }
+
+  .tabcontent .edu-info {
+    padding-left: 15px;
+  }
+}
+
+/* Media Quries for laptop and big divices */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about-container .about-image img {
+    position: relative;
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+  }
+
+  .about-inner .section-title {
+    text-align: center;
+  }
+  .about-inner .section-title h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .about-inner .section-title span {
+    font-size: 40px;
+    background: linear-gradient(
+      90deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .about-info {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+  }
+
+  .about-inner p {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .about-info p span {
+    background: linear-gradient(
+      90deg,
+      #2071b3 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
+    background-clip: text;
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .tablist {
     display: flex;
     justify-content: space-between;
     border: 1px solid #2d3548;
-    border-radius: 50px;
+    border-radius: 10%;
     color: #fff;
-    margin: 30px 10px 0 10px;
-    
-}
-.tabhead{
+    margin: 50px 20px 0 50px;
+  }
+  .tabhead {
     color: #fff;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 20px;
     padding: 10px 10px;
-}
-.skill-container{
+  }
+
+  .skill-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 10px 0 15px;
-}
-.tabcontent .experience{
+    padding: 0 15px 0 15px;
+  }
+
+  .tabcontent .experience {
     padding-left: 15px;
-}
-.tabcontent .edu-info{
+  }
+
+  .tabcontent .edu-info {
     padding-left: 15px;
+  }
 }
-    
-}
-
-
-
-
-
-
-
-
-
-
-

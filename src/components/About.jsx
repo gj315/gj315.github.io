@@ -208,21 +208,24 @@ const About = () => {
                   </div>
                   <div className="tabcontent" hidden={index !== 4}>
                     <div className="edu-info">
-                  <div className="b">
-                    <h3>
-                     <span className="cse">BTech in CSE</span> - Lovely professional University, Punjab ,India
-                    </h3>
-                    <h4>Aprail 2017</h4>
-                  </div>
-                  <div className="b">
-                    <h3>Complete Node.js Developer Course By Andrew Mead - Udemy</h3>
-                    <h4>September 2017</h4>
-                  </div>
-                  <div className="b">
-                    <h3>Modern React with Redux - Udemy</h3>
-                    <h4>2018</h4>
-                  </div>
-                  
+                      <div className="b">
+                        <h3>
+                          <span className="cse">BTech in CSE</span> - Lovely
+                          professional University, Punjab ,India
+                        </h3>
+                        <h4>Aprail 2017</h4>
+                      </div>
+                      <div className="b">
+                        <h3>
+                          Complete Node.js Developer Course By Andrew Mead -
+                          Udemy
+                        </h3>
+                        <h4>September 2017</h4>
+                      </div>
+                      <div className="b">
+                        <h3>Modern React with Redux - Udemy</h3>
+                        <h4>2018</h4>
+                      </div>
                     </div>
                   </div>
                 </div>
