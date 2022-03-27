@@ -5,12 +5,16 @@ import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 function App() {
+
+  
+  
+
   return (
     <div>
       <HomeSection/>
       <About />
       <Services />
-      <Portfolio />
+      <Portfolio  />
     </div>
 
       

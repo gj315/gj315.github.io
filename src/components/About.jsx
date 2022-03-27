@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "./About.css";
-// import aboutImage from "../assets/about-8.jpeg";
-import IMAGES from "../assets/index";
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
     <div className="About" id="about">
       <div className="about-container">
         <div className="about-image">
-          <img src={IMAGES.AboutImage} alt="an freelancer" />
+          <img src= 'assets/about-8.jpeg' alt="an freelancer" />
         </div>
         <div className="about-info">
           <div className="about-inner">
