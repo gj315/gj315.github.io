@@ -1,11 +1,9 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
-import  Navbar  from './Navbar';
 const Home = () => {
   return (
     <div className="home" id="home">
-      <Navbar />
       <div className="container">
         <div className="inner-text-left">
           <span className="welcome">Welcome to my World</span>
