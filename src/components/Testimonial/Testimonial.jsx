@@ -4,7 +4,7 @@ import "/node_modules/swiper/swiper.min.css";
 import "/node_modules/swiper/modules/effect-coverflow/effect-coverflow.min.css";
 import "/node_modules/swiper/modules/pagination/pagination.min.css";
 import "/node_modules/swiper/modules/navigation/navigation.min.css";
-import "/node_modules/swiper/modules/zoom/zoom.min.css";
+
 import "./Testimonial.css";
 
 import ClientData from "./ClientData";
@@ -15,7 +15,7 @@ import SwiperCore, {
   Pagination,
   Navigation,
   Autoplay,
-  Zoom,
+  
 } from "swiper/core";
 
 SwiperCore.use([
@@ -24,7 +24,7 @@ SwiperCore.use([
   Navigation,
   Keyboard,
   Autoplay,
-  Zoom,
+  
 ]);
 
 const Testimonial = () => {
@@ -33,24 +33,19 @@ const Testimonial = () => {
       
       <h2 className="sec-title">Awesome Quote from my Client's</h2>
       <Swiper
-      style={{
-        "--swiper-navigation-color": "#fff",
-        "--swiper-pagination-color": "#fff",
-      }}
-        zoom={true}
         navigation={true}
-        slidesPerView={window.innerWidth < 1080 ? 1 :'auto'}
+        spaceBetween={30}
+        slidesPerView={window.innerWidth >768 ? '6' :(  window.innerWidth > 480 ? "5" :(window.innerWidth <480 && '4'))}
         grabCursor={true}
         keyboard={{
           enabled: true,
         }}
         autoplay={{
           delay: 1500,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
           
         }
         }
-        
         effect={"coverflow"}
         centeredSlides={true}
         pagination={{
@@ -60,8 +55,8 @@ const Testimonial = () => {
           rotate: 50,
           stretch: 0,
           depth: 100,
-          modifier: 6,
-          slideShadows: true,
+          modifier: 2,
+          // slideShadows: true,
           
         }}
       

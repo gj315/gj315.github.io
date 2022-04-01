@@ -6,16 +6,16 @@ const ClientData = [
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
   {
     id: "2",
-    image: "assets/technology-1283624__480.webp",
+    image: "assets/engineer-g0460c8033_640.jpg",
     name: "Harpreet singh",
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
   {
     id: "3",
@@ -24,7 +24,7 @@ const ClientData = [
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
   {
     id: "4",
@@ -33,7 +33,7 @@ const ClientData = [
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
   {
     id: "5",
@@ -42,7 +42,7 @@ const ClientData = [
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
   {
     id: "6",
@@ -51,7 +51,7 @@ const ClientData = [
     company_name: "crowdmed",
     post: "CEO",
     project_category: "Web development",
-    client_quote: "He is a great developer",
+    client_quote: "He is a great developer and do clean work fastly",
   },
 ]
 export default ClientData;

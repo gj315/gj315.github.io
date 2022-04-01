@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 /* Universal selector */
 *, ::before, ::after{
   padding: 0;
@@ -10,6 +13,7 @@
 
 :root{
   --gradient-primary-color:#f31f42;
+  --gradient-secondary-color:linear-gradient(to right,rgb(219, 12, 202),rgb(61, 117, 237));
   --font-primary: "Poppins",sans-serif;
 }
 

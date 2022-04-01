@@ -97,6 +97,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a href="#testimonial" onClick={handleClick}>
+              Testimonial
+              </a>
+            </li>
+            <li>
               <a href="#contact" onClick={handleClick}>
                 Contact
               </a>

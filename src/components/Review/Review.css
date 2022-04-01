@@ -1,0 +1,65 @@
+.Review{
+    background-color: #0e1525;
+    width: 33.33% ;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.Review:hover{
+    background: var(--gradient-secondary-color);
+}
+
+.Review .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+
+}
+
+.Review .image img{
+    border-radius: 50%;
+    width: auto; 
+    height: 50%;
+    background:linear-gradient(120deg, rgb(20, 20, 239),rgb(243, 28, 229),rgb(13, 218, 13));
+    padding: 10px;
+}
+.Review .image h2{
+    background:linear-gradient(45deg,rgb(137, 7, 126),rgb(61, 117, 237));
+    font-size: 30px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.Review .image h3{
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.Review .image h3 span{
+    text-transform: lowercase;
+} 
+.Review .line{
+    padding: 1px;
+    position: relative;
+    margin: 10px 0;
+    width: 90%;
+    height:3px;
+    z-index: 999;
+    background:linear-gradient(to right,rgb(219, 12, 202),rgb(61, 117, 237));
+    font-weight: bold;
+}
+.Review .content .Quote{
+    font-size: 28px;
+    color: #ffffff;
+    font-family:"Patrick Hand", cursive ;
+}

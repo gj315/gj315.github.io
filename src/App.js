@@ -6,16 +6,19 @@ import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 import Navbar from './components/Navbar/Navbar';
 import Testimonial from './components/Testimonial/Testimonial';
+import SliderComponent from './components/Review/SliderComponent';
 function App() {
 
  return (
-    <div>
+    <div className='App'>
       <Navbar />
       <Home/>
       <About />
       <Services />
      <Portfolio />
      <Testimonial />
+     
+     <SliderComponent />
     </div>
 
       
