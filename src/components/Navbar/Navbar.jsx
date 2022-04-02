@@ -41,7 +41,7 @@ const Navbar = () => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#testimonial">Testimonial</a>
+              <a href="#slidercomp">Testimonial</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -97,7 +97,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#testimonial" onClick={handleClick}>
+              <a href="#slidercomp" onClick={handleClick}>
               Testimonial
               </a>
             </li>
