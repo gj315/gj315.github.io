@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: space-around;
   overflow-x: hidden;
-  animation:gallery 5s forwards;
 }
 
 .menu-tab-container {
@@ -115,16 +114,6 @@
   color: rgb(6, 8, 145);
 }
 
-@keyframes gallery {
-     from{
-       opacity: 0;
-       transform: translateX(-100vw);
-     }
-     to{
-      opacity: 1;
-      transform: translateX(0);
-     }
-}
 
 /* Media quries for mobile devices */
 @media screen and (max-width: 480px) {

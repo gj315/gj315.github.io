@@ -50,27 +50,26 @@ const Navbar = () => {
         </nav>
       </div>
       <div className="nav-right">
-      <div className="social-share-inner">
-        <ul>
-          <li>
-            <AiOutlineInstagram />
-          </li>
-          <li>
-            <RiFacebookLine />
-          </li>
-          <li>
-            <RiLinkedinFill />
-          </li>
-          <li>
-            <RiTwitterLine />
-          </li>
-        </ul>
+        <div className="social-share-inner">
+          <ul>
+            <li>
+              <AiOutlineInstagram />
+            </li>
+            <li>
+              <RiFacebookLine />
+            </li>
+            <li>
+              <RiLinkedinFill />
+            </li>
+            <li>
+              <RiTwitterLine />
+            </li>
+          </ul>
         </div>
         <div className="call-btn">
           <button>Call Now</button>
-       
-      </div>
-        
+        </div>
+
         <div className="hamburger-menu" onClick={handleClick}>
           {!nav ? <AiOutlineMenu /> : <AiOutlineClose />}
         </div>
@@ -82,7 +81,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#about" onClick={handleClick}>
+              <a
+                href="#about"
+                onClick={handleClick}
+                
+              >
                 About
               </a>
             </li>
@@ -98,7 +101,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#slidercomp" onClick={handleClick}>
-              Testimonial
+                Testimonial
               </a>
             </li>
             <li>
