@@ -35,9 +35,11 @@ const SliderComponent = () => {
     autoplaySpeed: 1000,
     responsive: [
       {
-        breakpoint: 500,
+        breakpoint: 680,
         settings: {
           slidesToShow: 1,
+          fade: true,
+          
         },
       },
       {

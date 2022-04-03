@@ -30,6 +30,7 @@ const Portfolio = () => {
         {items.map((element) => {
           return (
             <div className="menu-item" key={element.id}>
+              <div className="card-image-wrapper">
               <div className="image">
                 <img src={element.image} alt="" />
               </div>
@@ -38,7 +39,8 @@ const Portfolio = () => {
                 <h3>{element.category}</h3>
                 <p>{element.description}</p>
               </div>
-            </div>
+              </div>
+              </div>
           );
         })}
       </div>

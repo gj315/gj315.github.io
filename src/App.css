@@ -7,8 +7,22 @@
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  animation: show 2s forwards;
 }
 
+/* animation for all body */
+
+@keyframes show {
+    from {
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+}
 /* Psedueo root elements */
 
 :root{
