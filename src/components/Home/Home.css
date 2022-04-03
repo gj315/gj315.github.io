@@ -11,11 +11,39 @@
     background-size:cover;
     padding: 200px 0 100px 0;
     z-index: 2;
+    animation: loader 2s forwards;
+}
+@keyframes loader {
+    0%{
+      transform: scale(0);
+      opacity: 0;
+      transform-origin: center;
+    }
+    100%{
+      transform: scale(1);
+      opacity: 1;
+      transform-origin: center;
+    }
 }
 .container{
     max-width: 1200px;
     margin-left: 50px;
     display: flex;
+}
+.inner-text-left{
+    animation: textanimate 5s ease-out forwards;
+    animation-delay: 5s;
+}
+
+@keyframes textanimate {
+       from{
+           transform: rotateX(0deg);
+           opacity: 0;
+       }
+       to{
+        transform: rotateX(360deg);
+        opacity: 1; 
+       }
 }
 .inner-text-left .welcome{
     color: #fff;
