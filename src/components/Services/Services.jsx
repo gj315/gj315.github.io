@@ -15,16 +15,16 @@ const Services = () => {
     });
   }, []);
   return (
-    <div className="services" id="services">
-      <div className="service-section-header">
+    <div className="services" id="services" >
+      <div className="service-section-header" data-aos="slide-left" data-aos-offset="200">
         <div className="section-title">My Fantastic Service</div>
         <p>
           Below I mention all my fantastic software services which I can provide
           you
         </p>
       </div>
-      <div className="services-blocks" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
-        <div className="block">
+      <div className="services-blocks" >
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <CgWebsite
               style={{ fontSize: "45px", fontWeight: "400", color: "#fd4766" }}
@@ -39,7 +39,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="block" >
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <BiMobile
               style={{ fontSize: "45px", fontWeight: "400", color: "blue" }}
@@ -53,7 +53,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="block">
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <AiOutlineDesktop
               style={{ fontSize: "45px", fontWeight: "400", color: "green" }}
@@ -68,7 +68,7 @@ const Services = () => {
             
           </div>
         </div>
-        <div className="block">
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <FaEthereum
               style={{ fontSize: "45px", fontWeight: "400", color: "#606e97" }}
@@ -82,7 +82,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="block">
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <FaGamepad
               style={{
@@ -100,7 +100,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="block">
+        <div className="block" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
           <div className="icon">
             <FcDeployment
               style={{ fontSize: "45px", fontWeight: "400"}}
