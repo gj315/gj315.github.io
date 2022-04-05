@@ -18,7 +18,6 @@
 .about-image{
   background: linear-gradient(rgb(190, 21, 165),blue,rgb(20, 246, 16));
   border-radius: 20px;
-  animation:imageanimation 5s alternate forwards;
 }
 
 .about-image img {
@@ -30,20 +29,6 @@
   padding: 10px;
   
 }
-@keyframes imageanimation {
-  from{
-     opacity: 0;
-     transform: translateX(-100vw);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0);
-
-  }
-  
-}
-
-
 
 .about-info {
   max-width: 100%;

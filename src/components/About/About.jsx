@@ -1,14 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./About.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    Aos.init({
+      
+    });
+  }, []);
+
   const [index, setIndex] = useState(0);
   return (
     <div className="About" id="about">
       <div className="about-container">
-        <div className="about-image">
-          <img src="assets/about-8.jpeg"  alt="an freelancer" />
+        <div className="about-image" data-aos="slide-right" data-aos-offset="200" data-aos-duration="1000">
+          <img src="assets/about-8.jpeg" alt="an freelancer"/>
         </div>
-        <div className="about-info">
+        <div className="about-info" data-aos="slide-left" data-aos-offset="200" data-aos-duration="1000">
           <div className="about-inner">
             <div className="section-title">
               <span>Details </span>

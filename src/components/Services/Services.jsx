@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import "./Services.css";
 import { CgWebsite } from "react-icons/cg";
 import { BiMobile } from "react-icons/bi";
@@ -7,6 +9,11 @@ import { FaEthereum } from "react-icons/fa";
 import { FaGamepad } from "react-icons/fa";
 import { FcDeployment } from 'react-icons/fc';
 const Services = () => {
+
+  useEffect(() => {
+    Aos.init({
+    });
+  }, []);
   return (
     <div className="services" id="services">
       <div className="service-section-header">
@@ -16,7 +23,7 @@ const Services = () => {
           you
         </p>
       </div>
-      <div className="services-blocks">
+      <div className="services-blocks" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000">
         <div className="block">
           <div className="icon">
             <CgWebsite
@@ -32,7 +39,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="block">
+        <div className="block" >
           <div className="icon">
             <BiMobile
               style={{ fontSize: "45px", fontWeight: "400", color: "blue" }}
