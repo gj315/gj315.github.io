@@ -26,9 +26,6 @@
     }
 }
 
-/* animation css */
-
-
 .nav-left {
   display: flex;
   justify-content: center;
@@ -98,7 +95,7 @@
   cursor: pointer;
 }
 
-.call-btn button {
+.contact-me button {
   color: #fff;
   background-color: #0e1527;
   border-radius: 500px;
@@ -114,9 +111,12 @@
   border-color: rgb(24 18 19) 2px solid;
   margin-bottom: 10px;
 }
-.call-btn button:hover {
+.contact-me button:hover {
   background-color: #fd4766;
   cursor: pointer;
+}
+.contact-me button a{
+  color: #fff;
 }
 
 .hamburger-menu {
@@ -143,12 +143,10 @@
     animation: none;
   }
 
-  .call-btn button {
+  .contact-me button {
     display: none;
   }
-  .toggle-btn{
-    display: none;
-  }
+  
   .hamburger-menu {
     display: block;
     color: #fff;
@@ -235,12 +233,10 @@
     display: none;
   }
 
-  .call-btn button {
+  .contact-me button {
     display: none;
   }
-  .toggle-btn{
-    display: none;
-  }
+  
   .hamburger-menu {
     display: block;
     color: #fff;
@@ -315,7 +311,7 @@
     transition: 1s ease;
   }
 }
-@media screen and (min-width:768px) and (max-width:1226px){
+@media screen and (min-width:768px) and (max-width:1244px){
 
   .nav-menu {
     display: none;
@@ -329,12 +325,10 @@
     display: none;
   }
 
-  .call-btn button {
+  .contact-me button {
     display: none;
   }
-  .toggle-btn{
-    display: none;
-  }
+  
   .hamburger-menu {
     display: block;
     color: #fff;

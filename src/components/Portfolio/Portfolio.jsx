@@ -1,7 +1,17 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Portfolio.css";
+import Aos from 'aos';
 import Data from "./data";
 const Portfolio = () => {
+
+  useEffect(() => {
+    Aos.init({
+      
+    });
+  
+    
+  }, [])
+  
   const [items, setItems] = useState(Data);
 
   const filterItems = (categoryItem) => {
@@ -13,9 +23,9 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1 className="heading">My Awesome Projects</h1>
-      <div className="menu-tab-container">
-        <div className="menu-tab">
+      <h1 className="heading" data-aos="zoom-in">My Awesome Projects</h1>
+      <div className="menu-tab-container" data-aos="zoom-in">
+        <div className="menu-tab" >
           <button className="button" onClick={() => setItems(Data)}>
             All
           </button>
@@ -25,11 +35,11 @@ const Portfolio = () => {
           <button className="button" onClick={() => filterItems('Latest')}>Latest</button>
         </div>
       </div>
-      <div className="menu-items">
+      <div className="menu-items" data-aos="zoom-in">
         {/* my main item section    */}
         {items.map((element) => {
           return (
-            <div className="menu-item" key={element.id}>
+            <div className="menu-item" key={element.id} data-aos="zoom-in" data-aos-duration="1500">
               <div className="card-image-wrapper">
               <div className="image">
                 <img src={element.image} alt="" />

@@ -23,6 +23,8 @@ const SliderComponent = () => {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const settings = {
+    arrow: true,
+    navigation:true,
     infinite: true,
     lazyload: true,
     speed: 300,
@@ -55,11 +57,12 @@ const SliderComponent = () => {
     ],
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    
     beforeChange: (Current, next) => setSlideIndex(next),
   };
 
     return (
-        <div className="slidercomponent" id="slidercomp">
+        <div className="slidercomponent" id="testimonials" >
         <h2 className="sec-title">Awesome Quote from my Client's</h2>
     <div className="slider">
       <Slider {...settings}>
@@ -71,7 +74,7 @@ const SliderComponent = () => {
               className={index === slideIndex ? "slide slide-active" : "slide"}
                 >
              
-              <div className="Review">
+              <div className="Review" >
                 <div className="image">
                   <img src={block.image} alt="freelancer" />
                   <h2 className="name">{block.name}</h2>

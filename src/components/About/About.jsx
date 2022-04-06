@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState,  } from "react";
 import "./About.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const About = () => {
-  useEffect(() => {
-    Aos.init({
-      
-    });
-  }, []);
 
+  
   const [index, setIndex] = useState(0);
   return (
     <div className="About" id="about">

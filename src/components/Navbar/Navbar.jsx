@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { RiLinkedinFill, RiTwitterLine, RiFacebookLine } from "react-icons/ri";
 import {
@@ -6,7 +6,12 @@ import {
   AiOutlineInstagram,
   AiOutlineClose,
 } from "react-icons/ai";
+import Aos from "aos";
 const Navbar = () => {
+  useEffect(() => {
+    Aos.init({});
+  }, []);
+
   // fixed navbar
   window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
@@ -41,7 +46,7 @@ const Navbar = () => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#slidercomp">Testimonial</a>
+              <a href="#testimonials">Testimonial</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -66,8 +71,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="call-btn">
-          <button>Call Now</button>
+        <div className="contact-me">
+          <button><a href="#contact">contact me</a></button>
         </div>
 
         <div className="hamburger-menu" onClick={handleClick}>
@@ -81,11 +86,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#about"
-                onClick={handleClick}
-                
-              >
+              <a href="#about" onClick={handleClick}>
                 About
               </a>
             </li>
@@ -100,7 +101,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#slidercomp" onClick={handleClick}>
+              <a href="#testimonials" onClick={handleClick}>
                 Testimonial
               </a>
             </li>
@@ -127,9 +128,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="toggle-btn">
-              <button>Toggle</button>
-            </div>
+            
           </div>
         </div>
       </div>
