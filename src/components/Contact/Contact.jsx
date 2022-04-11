@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 const Contact = () => {
+  const [enteredEmail, setEnteredEmail] = useState("");
+  const [name, setName] = useState("");
+  const [enteredMessage, setEnteredMessage] = useState("");
+  const emailHandler = (e) => {
+    setEnteredEmail(e.target.value);
+  };
+  const nameHandler = (e) => {
+    setName(e.target.value);
+  };
+  const messageHandler = (e) => {
+    setEnteredMessage(e.target.value);
+  };
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+
+    setEnteredEmail("");
+    setName("");
+    setEnteredMessage("");
+  };
   return (
     <div className="contact" id="contact">
       <div className="contact-title">
@@ -8,15 +28,29 @@ const Contact = () => {
         <p>Let's Get in Touch And Make Miracle Together</p>
       </div>
       <div className="contact-form">
-        <form action="#" className="form">
+        <form action="#" className="form" onSubmit={submitHandler}>
           <div className="box-container">
             <div className="box">
-              <label htmlFor="fname">First Name</label>
-              <input type="text" name="fname" id="fname" />
+              <label htmlFor="fname">Full Name</label>
+              <input
+                type="text"
+                name="fullname"
+                id="fname"
+                value={name}
+                onChange={nameHandler}
+                required
+              />
             </div>
             <div className="box">
               <label htmlFor="email">Your Email</label>
-              <input type="text" name="email" id="email" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                value={enteredEmail}
+                onChange={emailHandler}
+                required
+              />
             </div>
           </div>
           <div className="message">
@@ -26,6 +60,9 @@ const Contact = () => {
               cols="30"
               rows="10"
               placeholder="Enter your message"
+              value={enteredMessage}
+              onChange={messageHandler}
+              required
             ></textarea>
           </div>
           <div className="form-button">
