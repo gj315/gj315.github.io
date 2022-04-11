@@ -15,7 +15,7 @@ const Services = () => {
     });
   }, []);
   return (
-    <div className="services" id="services" >
+    <div className="services" id="services">
       <div className="service-section-header" data-aos="slide-left" data-aos-offset="200">
         <div className="section-title">My Fantastic Service</div>
         <p>
