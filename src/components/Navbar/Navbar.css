@@ -85,8 +85,8 @@
   display: flex;
 }
 .social-share-inner ul li {
-  padding: 0 25px 0 0;
-  margin: 10px 0 10px 0;
+  padding: 0 15px 0 0;
+  margin: 10px 40px 10px 0;
   color: var(--primary-white-color);
   font-size: 20px;
 }
@@ -95,35 +95,24 @@
   cursor: pointer;
 }
 
-.contact-me button {
-  color:var(--primary-white-color);
-  background-color:var(--secondary-background-color);
-  border-radius: 500px;
-  font-size: 16px;
-  padding: 15px 25px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  border: 2px solid lightgrey;
-  text-transform: uppercase;
-  transition: all 0.4s ease-in-out;
-  font-family: var(--font-primary);
-  font-weight: 500;
-  border-color: rgb(24 18 19) 2px solid;
-  margin-bottom: 10px;
-}
-.contact-me button:hover {
-  background-color: var(--hover-color);
-  cursor: pointer;
-  font-size: 16px;
-}
-.contact-me button a{
+.day{
+  font-size: 35px;
   color: var(--primary-white-color);
+  
+}
+.day:hover{
+  font-size: 40px;
+  color: var(--primary-white-color);
+  transition: all 0.5s;
 }
 
 .hamburger-menu {
   display: none;
 }
 .mobile-menu {
+  display: none;
+}
+.mobile-day{
   display: none;
 }
 
@@ -142,6 +131,9 @@
   }
   .navbar{
     animation: none;
+  }
+  .day{
+    display: none;
   }
 
   .contact-me button {
@@ -216,11 +208,21 @@
   .social-handles ul li:nth-child(1) {
     color: rgb(255, 10, 145);
   }
+
+  
+  .mobile-day{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 2%;
+    transition:all 1s;
+  }
   .show {
     height: 90vh;
     transition: ease-in-out 1s;
   }
-  
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -234,7 +236,7 @@
     display: none;
   }
 
-  .contact-me button {
+  .day{
     display: none;
   }
   
@@ -307,6 +309,16 @@
   .social-handles ul li:nth-child(1) {
     color: rgb(255, 10, 145);
   }
+  
+    .mobile-day{
+      display: block;
+      text-align: center;
+      font-size: 40px;
+      position: absolute;
+      top: 40px;
+      transition:all 1s;
+    }
+  
   .show {
     height: 90vh;
     transition: 1s ease;
@@ -326,7 +338,7 @@
     display: none;
   }
 
-  .contact-me button {
+  .day {
     display: none;
   }
   
@@ -376,13 +388,12 @@
   .social-handles {
     z-index: 101;
     color: var(--primary-white-color);
-    padding: 15px 0;
   }
   .social-handles ul {
-    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
   }
   .social-handles ul li {
     padding: 0 20px;
@@ -398,6 +409,14 @@
   }
   .social-handles ul li:nth-child(1) {
     color: rgb(255, 10, 145);
+  }
+  .mobile-day{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    transition:all 1s;
   }
   .show {
     height: 90vh;

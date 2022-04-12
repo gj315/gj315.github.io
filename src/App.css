@@ -27,7 +27,7 @@
    --background-image-1:url("/public/assets/bg-image-28.jpg");
    --hover-color:var(--gradient-primary-color);
 }
-.dark-theme{
+.white-theme{
   --primary-background-color:#fff;
   --secondary-background-color:#fff;
    --primary-white-color:#000;

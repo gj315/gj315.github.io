@@ -6,7 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineClose,
 } from "react-icons/ai";
-import { BsSun,BsMoonStars } from "react-icons/bs";
+import { BsSun, BsMoonStars } from "react-icons/bs";
 import Aos from "aos";
 const Navbar = () => {
   useEffect(() => {
@@ -26,18 +26,19 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  //dark and white mode button 
-  const [icon,setIcon] =useState(<BsSun />)
-  
-  
+  //dark and white mode button
+  const [icon, setIcon] = useState(<BsSun />);
+
   const themeChangeHandler = () => {
-    document.body.classList.toggle('dark-theme');
-    if (document.body.classList.contains('dark-theme')) {
-      setIcon(<BsMoonStars /> )
+    document.body.classList.toggle("white-theme");
+    if (document.body.classList.contains("white-theme")) {
+      setIcon(<BsMoonStars />);
+      setNav(!nav);
     } else {
-      setIcon(<BsSun />)
+      setIcon(<BsSun />);
+      setNav(!nav);
     }
-  }
+  };
 
   return (
     <div className="navbar">
@@ -83,21 +84,20 @@ const Navbar = () => {
             <li>
               <RiTwitterLine />
             </li>
-            <li onClick={themeChangeHandler}>
-              {icon}
-            </li>
+            
           </ul>
         </div>
-        <div className="contact-me">
-          <button>
-            <a href="#contact">contact me</a>
-          </button>
+        <div className="day" onClick={themeChangeHandler}>
+        {icon}
         </div>
 
         <div className="hamburger-menu" onClick={handleClick}>
           {!nav ? <AiOutlineMenu /> : <AiOutlineClose />}
         </div>
         <div className={nav ? "mobile-menu show" : "mobile-menu"}>
+        <div className="mobile-day" onClick={themeChangeHandler} >
+        {icon}
+   </div>
           <ul className="mobile-nav">
             <li>
               <a href="#home" onClick={handleClick}>
@@ -130,7 +130,9 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          
           <div className="mobile-nav-right">
+            
             <div className="social-handles">
               <ul>
                 <li>
@@ -145,10 +147,8 @@ const Navbar = () => {
                 <li>
                   <RiTwitterLine />
                 </li>
-                <li onClick={themeChangeHandler}>
-              {icon}
-            </li>
               </ul>
+              
             </div>
           </div>
         </div>
