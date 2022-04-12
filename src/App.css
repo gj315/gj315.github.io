@@ -17,6 +17,21 @@
   --gradient-primary-color:#f31f42;
   --gradient-secondary-color:linear-gradient(to right,rgb(219, 12, 202),rgb(61, 117, 237));
   --font-primary: "Poppins",sans-serif;
+  --primary-background-color:#030f2c;
+  --secondary-background-color:#0e1527;
+  --third-background-color:#091020;
+  --fourth-background-color:#0e1525;
+   --primary-white-color:#fff;
+   --black-color:black;
+}
+.dark-theme{
+  --primary-background-color:#fff;
+  --secondary-background-color:#fff;
+   --primary-white-color:#000;
+  --third-background-color:#fff;
+  --fourth-background-color:#fff;
+   --primary-white-color:#000;
+   --black-color:#fff;
 }
 
 /* unordered list */

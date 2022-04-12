@@ -3,7 +3,7 @@
   height: 100%;
   box-sizing: border-box;
   padding: 70px 0 70px 0;
-  background: #0e1525;
+  background: var(--third-background-color);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -21,7 +21,7 @@
   margin: 10px 0 0 0;
 }
 .menu-tab .button {
-  background-color: #0e1525;
+  background-color: var(--third-background-color);
   border: none;
   font-size: 25px;
   padding: 0 10px;
@@ -121,7 +121,7 @@
     font-size: 45px;
   }
   .menu-tab .button {
-    background-color: #0e1525;
+    background-color: var(--third-background-color);
     border: none;
     font-size: 15px;
     padding: 0 10px;

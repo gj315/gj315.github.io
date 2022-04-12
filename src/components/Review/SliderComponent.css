@@ -3,7 +3,7 @@
     height: 100%;
     box-sizing: border-box;
     padding: 70px 0 100px 0;
-    background: #0e1525;
+    background: var(--fourth-background-color);
 }
 .slidercomponent h2{
     font-family: "Patrick Hand", cursive;
@@ -17,7 +17,7 @@
     transform: scale(0.9);
     transition: 0.5s;
     opacity: 0.6;
-    background: #fff;
+    background: var(--primary-white-color);
     padding: 10px;
     border-radius: 20px;
 }

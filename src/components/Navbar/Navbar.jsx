@@ -6,6 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineClose,
 } from "react-icons/ai";
+import { BsSun,BsMoonStars } from "react-icons/bs";
 import Aos from "aos";
 const Navbar = () => {
   useEffect(() => {
@@ -24,6 +25,19 @@ const Navbar = () => {
   const handleClick = () => {
     setNav(!nav);
   };
+
+  //dark and white mode button 
+  const [icon,setIcon] =useState(<BsSun />)
+  
+  
+  const themeChangeHandler = () => {
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+      setIcon(<BsMoonStars /> )
+    } else {
+      setIcon(<BsSun />)
+    }
+  }
 
   return (
     <div className="navbar">
@@ -69,10 +83,15 @@ const Navbar = () => {
             <li>
               <RiTwitterLine />
             </li>
+            <li onClick={themeChangeHandler}>
+              {icon}
+            </li>
           </ul>
         </div>
         <div className="contact-me">
-          <button><a href="#contact">contact me</a></button>
+          <button>
+            <a href="#contact">contact me</a>
+          </button>
         </div>
 
         <div className="hamburger-menu" onClick={handleClick}>
@@ -126,9 +145,11 @@ const Navbar = () => {
                 <li>
                   <RiTwitterLine />
                 </li>
+                <li onClick={themeChangeHandler}>
+              {icon}
+            </li>
               </ul>
             </div>
-            
           </div>
         </div>
       </div>
