@@ -93,4 +93,74 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:480px){
+    .container{
+        max-width: 1200px;
+        display: flex;
+        margin-left: 0px;
+    }
+    .inner-text-left{
+        animation: textanimate 3s ease forwards;
+    }
+    
+    @keyframes textanimate {
+           from{
+               transform: translateX(-100vw);
+               opacity: 0;
+           }
+           to{
+            transform: translateX(0);
+            opacity: 1; 
+           }
+    }
+    .inner-text-left .welcome{
+        color: var(--primary-white-color);
+        font-size: 16px;
+        letter-spacing: 4px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        
+    }
+    .inner-text-left .title{
+        font-size: 40px;
+        color: var(--primary-white-color);
+        margin-left: 40px;
+        
+        
+    }
+    .typewriter span{
+        background: linear-gradient(to right, rgb(43, 43, 216), rgb(241, 20, 223), rgb(243, 243, 9));
+        background-clip:text ;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px; 
+        font-weight:bold;
+        margin-left: 18px;
+        z-index:2;
+        
+    }
+    .typewriter h2{
+        font-size: 40px;
+        color: var(--primary-white-color);
+        margin-left: 40px;
+       
+    }
+    
+    .upwork-profile button{
+        margin-top:15px;
+        padding: 15px 40px;
+        letter-spacing: 2px;
+        border: 0.5px solid var(--primary-white-color);
+        border-radius: 100px;
+        font-size: 25px;
+        color: green;
+        background-color:var(--secondary-background-color);
+    }
+    .upwork-profile button:hover{
+        background-color:var(--hover-color);
+        color:var(--black-color);
+        cursor: pointer;
+    }  
+}
+
 
