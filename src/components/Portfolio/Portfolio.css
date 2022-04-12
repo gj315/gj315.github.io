@@ -3,7 +3,7 @@
   height: 100%;
   box-sizing: border-box;
   padding: 70px 0 70px 0;
-  background: var(--third-background-color);
+  background: var(--fourth-background-color);
   display: flex;
   flex-direction: column;
   justify-content: space-around;

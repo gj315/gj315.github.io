@@ -23,15 +23,22 @@
   --fourth-background-color:#0e1525;
    --primary-white-color:#fff;
    --black-color:black;
+   --transparent-color:transparent;
+   --background-image-1:url("/public/assets/bg-image-28.jpg");
+   --hover-color:var(--gradient-primary-color);
 }
 .dark-theme{
   --primary-background-color:#fff;
   --secondary-background-color:#fff;
    --primary-white-color:#000;
-  --third-background-color:#fff;
+  --third-background-color:rgb(247, 242, 242);
   --fourth-background-color:#fff;
    --primary-white-color:#000;
    --black-color:#fff;
+   --hover-color:aqua;
+   --transparent-color:aqua;
+   --background-image-1:url("/public/assets/software-development-6523979__340.webp");
+   transition: all 1s;
 }
 
 /* unordered list */

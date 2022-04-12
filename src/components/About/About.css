@@ -440,13 +440,13 @@
 }
 
 .tabcontent .experience h3 {
-  color: rgb(198 201 216 / 75%);
+  color: var(--primary-white-color);
   padding: 10px 0 0 0;
   font-size: 16px;
   font-weight: 300;
 }
 .tabcontent .experience h4 {
-  color: rgb(198 201 216 / 75%);
+  color: var(--primary-white-color);
   font-size: 16px;
   padding-top: 8px;
 }
@@ -465,13 +465,13 @@
 }
 
 .tabcontent .edu-info h3 {
-  color: rgb(198 201 216 / 75%);
+  color: var(--primary-white-color);
   padding: 10px 0 0 0;
   font-size: 16px;
   font-weight: 300;
 }
 .tabcontent .edu-info h4 {
-  color: rgb(198 201 216 / 75%);
+  color: var(--primary-white-color);
   font-size: 16px;
   padding-top: 8px;
 }

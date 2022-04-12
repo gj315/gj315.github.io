@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0 0 0;
-  background-color: transparent;
+  background-color: var(--transparent-color);
   z-index: 2;
   animation: navanimate 4.5s ease-in-out forwards;
 }
@@ -112,8 +112,9 @@
   margin-bottom: 10px;
 }
 .contact-me button:hover {
-  background-color: #fd4766;
+  background-color: var(--hover-color);
   cursor: pointer;
+  font-size: 16px;
 }
 .contact-me button a{
   color: var(--primary-white-color);
