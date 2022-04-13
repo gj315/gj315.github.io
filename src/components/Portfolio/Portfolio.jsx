@@ -46,7 +46,6 @@ const Portfolio = () => {
               </div>
               <div className="content">
                 <h2>{element.name}</h2>
-                <h3>{element.category}</h3>
                 <p>{element.description}</p>
               </div>
               </div>

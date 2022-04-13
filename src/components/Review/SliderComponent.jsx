@@ -77,7 +77,7 @@ const SliderComponent = () => {
               <div className="Review">
                 <div className="image">
                   <img src={block.image} alt="freelancer" />
-                  <h2 className="project_title">{block.project_title}</h2>
+                  <h2 className="name">{block.name}</h2>
                   <h3 className="project_category">
                     {block.project_category}
                   </h3>
