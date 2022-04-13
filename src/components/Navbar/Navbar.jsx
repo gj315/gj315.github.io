@@ -6,7 +6,7 @@ import {
   AiOutlineInstagram,
   AiOutlineClose,
 } from "react-icons/ai";
-import { BsSun, BsMoonStars } from "react-icons/bs";
+import { BsEmojiSunglassesFill, BsMoonStars } from "react-icons/bs";
 import Aos from "aos";
 const Navbar = () => {
   useEffect(() => {
@@ -27,18 +27,22 @@ const Navbar = () => {
   };
 
   //dark and white mode button
-  const [icon, setIcon] = useState(<BsSun />);
+  const [icon, setIcon] = useState(<BsEmojiSunglassesFill />);
 
   const themeChangeHandler = () => {
     document.body.classList.toggle("white-theme");
     if (document.body.classList.contains("white-theme")) {
       setIcon(<BsMoonStars />);
+      setStyle({ "color":"#333"})
       setNav(!nav);
     } else {
-      setIcon(<BsSun />);
+      setIcon(<BsEmojiSunglassesFill />);
+      setStyle({ "color":"yellow"})
       setNav(!nav);
     }
   };
+
+  const [style, setStyle] = useState({ "color":"yellow"})
 
   return (
     <div className="navbar">
@@ -87,7 +91,7 @@ const Navbar = () => {
             
           </ul>
         </div>
-        <div className="day" onClick={themeChangeHandler}>
+        <div style={style} className="day" onClick={themeChangeHandler}>
         {icon}
         </div>
 
