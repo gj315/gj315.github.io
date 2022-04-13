@@ -3,7 +3,7 @@
       id: "e1",
       name: "Crowdmed Web",
       category: "Web",
-      description: "An online medical service platform",
+      description: "Full stack software engineer",
       image: "assets/danial-igdery-FCHlYvR5gJI-unsplash.jpg",
     },
     {

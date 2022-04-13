@@ -44,9 +44,6 @@
     letter-spacing: 1px;
     font-weight: 500;
 }
-.Review .image h3 span{
-    text-transform: lowercase;
-} 
 .Review .line{
     padding: 1px;
     position: relative;

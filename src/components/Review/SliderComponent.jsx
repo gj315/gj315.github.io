@@ -74,14 +74,12 @@ const SliderComponent = () => {
               className={index === slideIndex ? "slide slide-active" : "slide"}
                 >
              
-              <div className="Review" >
+              <div className="Review">
                 <div className="image">
                   <img src={block.image} alt="freelancer" />
-                  <h2 className="name">{block.name}</h2>
-                  <h3 className="post-company">
-                    {block.post}
-                    <span> at </span>
-                    {block.company_name}
+                  <h2 className="project_title">{block.project_title}</h2>
+                  <h3 className="project_category">
+                    {block.project_category}
                   </h3>
                 </div>
                 <div className="line"></div>
