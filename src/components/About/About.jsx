@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./About.css";
 import "aos/dist/aos.css";
+import Aos from 'aos';
 const About = () => {
+  useEffect(() => {
+    Aos.init({
+    });
+  }, []);
   const [index, setIndex] = useState(0);
   return (
     <div className="About" id="about">
       <div className="about-container">
-        <div className="section-title" >
+        <div className="section-title" data-aos="zoom-out"
+        data-aos-offset="200"
+        data-aos-duration="1000" >
           
           <h2><span>Details </span> About Me</h2>
           <p>
