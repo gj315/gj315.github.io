@@ -88,7 +88,7 @@ const Services = () => {
               style={{
                 fontSize: "45px",
                 fontWeight: "400",
-                color: "#ffff",
+                color: "var(--primary-white-color)",
               }}
             />
           </div>

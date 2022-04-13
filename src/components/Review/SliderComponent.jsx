@@ -66,9 +66,9 @@ const SliderComponent = () => {
         <h2 className="sec-title">Awesome Quote from my Client's</h2>
     <div className="slider">
       <Slider {...settings}>
-        {ClientData.map((block, index) => {
+        {ClientData.map((block,index) => {
             return (
-                <Fragment>
+                <Fragment key={index}>
                 
             <div
               className={index === slideIndex ? "slide slide-active" : "slide"}

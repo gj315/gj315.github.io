@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import "./About.css";
 import "aos/dist/aos.css";
-
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
     <div className="About" id="about">
       <div className="about-container">
-        <div className="section-title">
+        <div className="section-title" >
           
           <h2><span>Details </span> About Me</h2>
-        </div>
-        <p>
+          <p>
           Hi I know you come here for that guy who are expert in <br></br>
           <span>new web technologies</span> then congras! you come on right
           place.
         </p>
+        </div>
+        
         <div
           className="about-info"
           data-aos="zoom-out"

@@ -98,6 +98,7 @@
 .day{
   font-size: 35px;
   color: var(--primary-white-color);
+  z-index: 999;
   
 }
 .day:hover{

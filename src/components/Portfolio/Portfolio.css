@@ -70,13 +70,20 @@
 .card-image-wrapper{
   background:linear-gradient(to top,rgb(33, 243, 29),rgb(233, 58, 201));
   border-radius: 10px;
+
 }
+.card-image-wrapper:hover{
+  transform: scale(1.01);
+}
+
+
 .menu-item .image {
   position: relative;
   border-radius: 10px;
   margin: 10px 10px;
   
 }
+
 
 .menu-item .content {
   position: absolute;
