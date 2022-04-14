@@ -85,6 +85,7 @@
   height: auto;
 }
 
+
 .menu-item .content {
   position: absolute;
   top: 0;
@@ -98,13 +99,14 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transform: translateY(20%);
+  transform: translateY(10%);
   transition: transform 2s;
 }
-.menu-item .content:hover {
+.menu-item .content:hover{
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(0);
 }
+
 
 .menu-item .content h2 {
   text-align: center;
