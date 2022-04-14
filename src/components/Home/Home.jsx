@@ -12,18 +12,18 @@ const Home = () => {
             <span>
               <Typewriter
                 words={[
-                  "Javascript Developer",
-                  "Mern Stack Dev",
-                  "NodeJs Developer",
-                  "ReactJs Developer",
-                  "NextJs Developer",
-                  "Gatsby Developer",
-                  "ReactNative Mobile App Dev",
-                  "Mevn Stack Dev",
-                  "Mean Stack Dev",
-                  "BlockChain Dev",
-                  "Web3.0 Dev",
-                  "NFT developer"
+                  "JAVASCRIPT DEVELOPER",
+                  "MERN STACK DEV",
+                  "NODEJS DEVELOPER",
+                  "REACTJS DEVELOPER",
+                  "NEXTJS DEVELOPER",
+                  "GATSBY DEVELOPER",
+                  "REACTNATIVE MOBILE APP DEV",
+                  "MEVN STACK DEV",
+                  "MEAN STACK DEV",
+                  "BLOCKCHAIN DEV",
+                  "WEB3.0 DEV",
+                  "NFT DEVELOPER"
                 ]}
                 loop
                 cursor

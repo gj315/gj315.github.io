@@ -32,6 +32,7 @@ const Portfolio = () => {
           <button className="button" onClick={() => filterItems('Web')}>Web</button>
           <button className="button" onClick={() => filterItems('Mobile')}>Mobile</button>
           <button className="button" onClick={() => filterItems('BlockChain')}>BlockChain</button>
+          <button className="button" onClick={() => filterItems('Games')}>Games</button>
           <button className="button" onClick={() => filterItems('Latest')}>Latest</button>
         </div>
       </div>

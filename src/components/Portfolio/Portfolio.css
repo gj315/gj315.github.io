@@ -150,7 +150,7 @@
   .menu-tab .button {
     background-color: var(--third-background-color);
     border: none;
-    font-size: 15px;
+    font-size: 12px;
     padding: 0 10px;
     background: linear-gradient(
       to right,
