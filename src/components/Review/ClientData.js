@@ -1,7 +1,7 @@
 const ClientData = [
   {
     id: "1",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-1.jpg",
     name: "David make",
     company_name: "crowdmed",
     
@@ -11,7 +11,7 @@ const ClientData = [
   },
   {
     id: "2",
-    image: "assets/engineer-g0460c8033_640.jpg",
+    image: "assets/photo-2.jpg",
     name: "Luke michel",
     company_name: "crowdmed",
     
@@ -22,7 +22,7 @@ const ClientData = [
   
   {
     id: "3",
-    image: "assets/engineer-g0460c8033_640.jpg",
+    image: "assets/photo-11.jpg",
     name: "Robert shed",
     company_name: "crowdmed",
     
@@ -32,7 +32,7 @@ const ClientData = [
   },
   {
     id: "4",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-12.jpg",
     name: "kevin michel",
     company_name: "crowdmed",
     
@@ -42,7 +42,7 @@ const ClientData = [
   },
   {
     id: "5",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-5.jpg",
     name: "Nathon wade",
     company_name: "crowdmed",
     
@@ -52,7 +52,7 @@ const ClientData = [
   },
   {
     id: "6",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-8.jpg",
     name: "Emma Grey",
     company_name: "crowdmed",
     
@@ -63,7 +63,7 @@ const ClientData = [
   
   {
     id: "7",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-10.jpg",
     name: "Alexndra vexy",
     company_name: "crowdmed",
     
@@ -74,7 +74,7 @@ const ClientData = [
   
   {
     id: "8",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-6.jpg",
     name: "Huge deff",
     company_name: "crowdmed",
     
@@ -85,7 +85,7 @@ const ClientData = [
   
   {
     id: "9",
-    image: "assets/software-developer-g859bd614a_640.jpg",
+    image: "assets/photo-7.jpg",
     name: "John willam",
     company_name: "crowdmed",
     
@@ -96,7 +96,7 @@ const ClientData = [
   
   {
     id: "10",
-    image: "assets/student-gfa60f822a_640.jpg",
+    image: "assets/photo-9.jpg",
     name: "simion albert",
     company_name: "crowdmed",
     
