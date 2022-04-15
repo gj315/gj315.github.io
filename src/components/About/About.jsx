@@ -12,8 +12,8 @@ const About = () => {
     <div className="About" id="about">
       <div className="about-container">
         <div className="section-title" data-aos="zoom-out"
-        data-aos-offset="200"
-        data-aos-duration="1000" >
+          
+        data-aos-duration="1000"  >
           
           <h2><span>Details </span> About Me</h2>
           <p>
@@ -25,9 +25,6 @@ const About = () => {
         
         <div
           className="about-info"
-          data-aos="zoom-out"
-          data-aos-offset="200"
-          data-aos-duration="1000"
         >
           <div
             className="about-image"

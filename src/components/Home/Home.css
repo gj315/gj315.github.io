@@ -230,7 +230,9 @@
         background-color:var(--hover-color);
         color:var(--black-color);
         cursor: pointer;
-    }  
+    } 
+    
+
 }
 
 

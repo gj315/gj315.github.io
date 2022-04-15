@@ -36,7 +36,8 @@ const Home = () => {
             <h2>live in INDIA</h2>
           </div>
           <div class="upwork-profile">
-            <button>Upwork Profile</button>
+            <button>Know More</button>
+            
             
           </div>
         </div>
