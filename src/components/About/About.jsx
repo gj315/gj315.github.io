@@ -35,7 +35,7 @@ const About = () => {
             data-aos-offset="200"
             data-aos-duration="1000"
           >
-            <img src="assets/about-8.jpeg" alt="an freelancer" />
+            <img src="assets/ceo.png" alt="an freelancer" />
           </div>
 
           <div className="about-me-dashborad">
