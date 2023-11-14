@@ -62,9 +62,6 @@ const Navbar = () => {
               <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
               <a href="#testimonials">Testimonial</a>
             </li>
             <li>
@@ -116,11 +113,6 @@ const Navbar = () => {
             <li>
               <a href="#services" onClick={handleClick}>
                 Services
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" onClick={handleClick}>
-                Portfolio
               </a>
             </li>
             <li>
